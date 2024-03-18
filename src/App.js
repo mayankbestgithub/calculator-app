@@ -1,26 +1,9 @@
 import './App.css';
-
+import Calculator from './Features/calculator/Calculator';
 const App = () => {
-  return (<div id="main">
-    <span id="display">0</span>
-    <button id="clear">AC</button>
-    <button id="divide">/</button>
-    <button id="multiply">X</button>
-    <button id="one">1</button>
-    <button id="two">2</button>
-    <button id="three">3</button>
-    <button id="substract">-</button>
-    <button id="four">4</button>
-    <button id="five">5</button>
-    <button id="six">6</button>
-    <button id="add">+</button>
-    <button id="seven">7</button>
-    <button id="eight">8</button>
-    <button id="nine">9</button>
-    <button id="decimal">.</button>
-    <button id="zero">0</button>
-    <button id="equals">=</button>
-
+  return (<div>
+    <h1>Calculator App</h1>
+    <Calculator></Calculator>
   </div>)
 }
 

@@ -1,74 +1,7 @@
-#main {
+body {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 400px;
-  height: 400px;
-  margin: 0 auto;
-  border: 1px solid black;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 16px;
-
-}
-
-#display {
-  width: 100%;
-  height: 20%;
-  text-align: right;
-  display: inline-block;
-  vertical-align: text-bottom;
-  font-size: 1.75rem;
-
-}
-
-#clear,
-#zero {
-  width: 50%;
-  height: 16%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  border: 1px solid black;
-  font-size: 1.25rem;
-}
-
-#add,
-#substract,
-#multiply,
-#divide,
-#decimal,
-#one,
-#two,
-#three,
-#four,
-#five,
-#six,
-#seven,
-#eight,
-#nine {
-  width: 25%;
-  height: 16%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  border: 1px solid black;
-  background-color: gray;
-  font-size: 1.25rem;
-
-}
-
-#equals {
-  width: 50%;
-  height: 16%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  border: 1px solid black;
-  display: inline;
-  font-size: 1.25rem;
-
-}
-
-#clear {
-  background-color: brown;
+  font-family: sans-serif;
+  text-align: center;
 }
